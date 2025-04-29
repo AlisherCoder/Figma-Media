@@ -1,6 +1,5 @@
 .reviews {
    &__wrapper {
-      border: 1px solid red;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -17,7 +16,6 @@
    &__item {
       background: $bg-secondary;
       display: flex;
-      min-height: 239px;
       justify-content: center;
       align-items: center;
       padding: 30px 34px;
@@ -37,6 +35,10 @@
          h3 {
             font-size: 24px;
             font-weight: 700;
+            color: #1e1d1d;
+         }
+         p {
+            color: #8b8e99;
          }
       }
    }
