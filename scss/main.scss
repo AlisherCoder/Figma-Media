@@ -1,0 +1,12 @@
+@import "variable";
+@import "global";
+
+@import "header";
+@import "hero";
+@import "brand";
+@import "products";
+@import "reviews";
+
+body {
+   min-height: 500vh;
+}
